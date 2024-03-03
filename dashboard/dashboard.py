@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-df = pd.read_csv('data_wanshouxigong.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/aeez/airquality/main/dashboard/data_wanshouxigong.csv')
 
 # Title
 st.title('Analisis Air Quality di Kota Wanshouxigong')
