@@ -21,7 +21,7 @@ Dashboard ini memperlihatkan analisis dari dataset *air quality* di Kota Wanshou
 
 # Sidebar
 with st.sidebar:
-    st.image("logo.jpg")
+    st.image("https://raw.githubusercontent.com/aeez/airquality/main/dashboard/logo.jpg")
 
     df.sort_values(by="date", inplace=True)
     df.reset_index(inplace=True)
